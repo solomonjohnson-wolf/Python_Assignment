@@ -20,18 +20,17 @@ result = x + y
 print(result)
 message ="Solomon AJ"
 print(message[0:-2])
-number1 = input("Enter a number:")
-number2 = input("Enter another number:")
+number1 = int(input("Enter a number:"))
+number2 = int(input("Enter another number:"))
 result = number1 + number2
 print(result)
-number1= int(number1)
-number2 = int(number2)
 result2 = number1 - number2
 print(result2)
 result3 = number1 * number2
 print(result3)
 result4 = number1 / number2
 print(result4)
+result5 = number1 % number2
 
 Patient1 = input("Enter a patient age:")
 Patient2 = input("Enter a patient age:")
